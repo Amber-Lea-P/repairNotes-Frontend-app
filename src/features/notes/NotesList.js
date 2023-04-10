@@ -1,4 +1,4 @@
-import { useGetNotesQuery } from "./notesApiSlice.js"
+import { useGetNotesQuery } from "./notesApiSlice"
 import Note from "./Note"
 
 const NotesList = () => {
