@@ -16,7 +16,7 @@ export const authApiSlice = apiSlice.injectEndpoints({
                 method: 'POST',
             }),
             async onQueryStarted(arg, { dispatch, queryFulfilled }) {
-                try {
+                try {//option to check data:
                     //const { data } = 
                     await queryFulfilled
                     //console.log(data)
