@@ -12,7 +12,7 @@ const Public = () => {
                 Minna's Auto Repair<br />
                     555 Luomotie<br />
                     Kauhava, FI 62000<br />
-                    <a href="tel:+15555555555">(555) 555-5555</a>
+                    <a href="tel:+35855555555555">(358) 555-555555</a>
                 </address>
                 <br />
                 <p>Owner: Minna Rantala</p>
