@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPenToSquare } from "@fortawesome/free-solid-svg-icons"
 import { useNavigate } from 'react-router-dom'
-import { useGetNotesQuery } from './notesApiSlice'
+import { useGetNotesQuery } from './notesApiSlice.js'
 import { memo } from 'react'
 
 const Note = ({ noteId }) => {
