@@ -71,7 +71,7 @@ body {
   color: var(--COLOR);
   background-image: url('./img/background.jpg');
   background-size: cover;
-  background-position: top right;
+  background-position: top;
   background-blend-mode: multiply;
 }
 
