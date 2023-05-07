@@ -15,6 +15,7 @@ import PersistLogin from './features/auth/PersistLogin';
 import RequireAuth from './features/auth/RequireAuth'
 import { ROLES } from './config/roles'
 import useTitle from "./hooks/useTitle"
+import ContactUs from './components/contactUs/ContactUs';
 
 function App() {
   useTitle('Minnas Auto Repair')
@@ -23,6 +24,7 @@ function App() {
       <Route path="/" element={<Layout />}>
         {/* public routes */}
         <Route index element={<Public />} />
+        <Route path="contactus" element={<ContactUs />} />
         <Route path="login" element={<Login />} />
 
         {/* Protected Routes */}

@@ -1,0 +1,40 @@
+.footer{
+    background-color:#B2B2B2;
+    color: white;
+    padding: 20px 0px;}
+
+.links{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        font-weight: 500;}    
+
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .left{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .right{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .social{
+    display: flex;
+    gap: 20px;
+  }
+  .link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }

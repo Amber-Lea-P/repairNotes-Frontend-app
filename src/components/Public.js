@@ -1,25 +1,59 @@
-import { Link } from 'react-router-dom'
+import  Carousel  from "./carousel/Carousel.js"
+import Featured from './featured/Featured.js'
+import AsSeenOn from './asSeenOn/AsSeenOn.js'
+import Navbar from './publicNavbar/Navbar.js'
+import Footer from './footer/Footer.js'
 
 const Public = () => {
     const content = (
         <section className="public">
-            <header>
-                <h1>Welcome to <span className="nowrap">Minna's Auto Repair!</span></h1>
-            </header>
+            <Navbar />
+            <Featured />
+            <AsSeenOn />
             <main className="public__main">
-                <p>Located in Beautiful city of Kauhava, Minna's Auto Repair provides a trained staff ready to meet your auto repair needs.</p>
-                <address className="public__addr">
-                Minna's Auto Repair<br />
-                    555 Luomotie<br />
-                    Kauhava, FI 62000<br />
-                    <a href="tel:+35855555555555">(358) 555-555555</a>
-                </address>
-                <br />
-                <p>Owner: Minna Rantala</p>
+                
+
+                <div style={{ maxWidth: 1200, marginLeft: 'auto', marginRight: 'auto', marginTop: 64 }}>
+                <Carousel
+                show={3}
+                infiniteLoop={true}
+            >
+                <div>
+                    <div style={{padding: 4}}>
+                        <img src="https://images.pexels.com/photos/3807277/pexels-photo-3807277.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1/" alt="placeholder" style={{width: '300px', height: '300px'} } />
+                    </div>
+                </div>
+                
+                <div>
+                    <div style={{padding: 4}}>
+                        <img src="https://images.pexels.com/photos/4489794/pexels-photo-4489794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1&w=1600/" alt="placeholder" style={{width: '300px', height: '300px'} } />
+                    </div>
+                </div>
+                
+                <div>
+                    <div style={{padding: 4}}>
+                        <img src="https://images.pexels.com/photos/3807297/pexels-photo-3807297.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="placeholder" style={{width: '300px', height: '300px'} } />
+                    </div>
+                </div>
+                <div>
+                    <div style={{padding: 4}}>
+                        <img src="https://images.pexels.com/photos/3642618/pexels-photo-3642618.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="placeholder" style={{width: '300px', height: '300px'} } />
+                    </div>
+                </div>
+                <div>
+                    <div style={{padding: 4}}>
+                        <img src="https://images.pexels.com/photos/13065697/pexels-photo-13065697.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1/" alt="placeholder" style={{width: '300px', height: '300px'} } />
+                    </div>
+                </div>
+                <div>
+                    <div style={{padding: 4}}>
+                        <img src="https://images.pexels.com/photos/7006668/pexels-photo-7006668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="placeholder" style={{width: '300px', height: '300px'} }/>
+                    </div>
+                </div>
+            </Carousel>
+                </div>
             </main>
-            <footer>
-                <Link to="/login">Employee Login</Link>
-            </footer>
+            <Footer />
         </section>
 
     )
