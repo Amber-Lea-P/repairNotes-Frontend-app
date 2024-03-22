@@ -18,7 +18,7 @@ import useTitle from "./hooks/useTitle"
 import ContactUs from './components/contactUs/ContactUs';
 
 function App() {
-  useTitle('Minnas Auto Repair')
+  useTitle("Raimo's Auto Repair")
   return (
     <Routes>
       <Route path="/" element={<Layout />}>
