@@ -6,17 +6,13 @@
     color: white;
 }
 
-.container {
-    width: 1400px;
+
+.leftsocialF{
+    width: max-content;
     display: flex;
     align-items: center;
-}
-
-.left {
-     display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
+    gap: 20px;
+  }
 
 h1 {
     font-size: 50px; }

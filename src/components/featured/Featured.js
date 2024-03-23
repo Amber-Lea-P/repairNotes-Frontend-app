@@ -8,8 +8,8 @@ function Featured() {
     
     return (
       <div className="featured">
-        <div className="container">
-          <div className="left">
+        
+          <div className="leftsocialF">
             <h1>
            Welcome to Raimo's Auto Repair!
             </h1>
@@ -18,7 +18,6 @@ function Featured() {
                   <img src="./img/man.png" alt="" classname="img_right"/>
   
           </div>
-        </div>
       </div>
     );
   }
