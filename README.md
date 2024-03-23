@@ -20,8 +20,14 @@ Welcome to my repair-notes application. The idea behind this application is that
 17. Only Managers and Admins can create new users 
 
 Test out each role and see the differences between employee and management access:
-Management: Username: Beth password: !Hh12345
-Employee: Username: HankD password: !Hh12345
+Management: 
+  * Username: Beth
+  * Password: !Hh12345
+Employee:
+  * Username: HankD
+  * password: !Hh12345
 
 front end start command is npm start
 back end start command is npm run dev
+
+A big thank you goes to Dave Gray and his amazing teachings on the MERN Stack. It was an honor to incorpoate some of his MERN stack teachings into this project. 
