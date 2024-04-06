@@ -27,8 +27,8 @@ Employee:
   * Username: HankD
   * password: !Hh12345
 
-front end start command is npm start
-back end start command is npm run dev
-Back end server repo: https://github.com/Amber-Lea-P/repairNotes-Backend-Server
+front end start command is npm start<br>
+back end start command is npm run dev<br>
+Back end server repo: https://github.com/Amber-Lea-P/repairNotes-Backend-Server <br>
 This application is best viewed on a computer or tablet. Complete mobile optimaztion is coming soon!
 A big thank you goes to Dave Gray and his amazing teachings on the MERN Stack. It was an honor to incorpoate some of his MERN stack teachings into this project. 
