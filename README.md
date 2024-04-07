@@ -19,11 +19,11 @@ Welcome to my repair-notes application. The idea behind this application is that
 16. Only Managers and Admins can access User Settings 
 17. Only Managers and Admins can create new users 
 
-Test out each role and see the differences between employee and management access:
-Management: 
+Test out each role and see the differences between employee and management access:<br>
+<br>Management: 
   * Username: Beth
-  * Password: !Hh12345
-Employee:
+  * Password: !Hh12345<br>
+<br>Employee:
   * Username: HankD
   * password: !Hh12345
 
